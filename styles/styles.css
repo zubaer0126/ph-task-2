@@ -225,3 +225,22 @@ img {
 .siu{
   text-align: right;
 }
+
+/* footer  */
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 15px;
+
+}
+
+.footer-logo img{
+  width: 10%;
+}
+
+.footer-container{
+  background: #0B0223;
+}
