@@ -126,6 +126,9 @@ img {
 .we-are-gamer-content {
     text-align: right;
 }
+.we-are-gamer-section{
+    margin-top: 80px;
+}
 
 .we-are-gamer {
     flex-direction: row-reverse;
@@ -143,3 +146,72 @@ img {
     font-weight: 500;
     margin-top: 20px;
 }
+.online-games{
+    text-align: center;
+}
+.online-games-sec{
+    margin-top: 80px;
+}
+
+/* vidoes */
+
+.videos{
+    display: flex;
+    gap: 10px;
+}
+
+.video:hover .overlay{
+    opacity: 1;
+    
+} 
+
+.video-img-box{
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .5);
+    height: 99%;
+    width: 100%;
+    border-radius: 16px;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.overlay i{
+    margin-bottom: 10px;
+}
+
+/* play games sec */
+.play-games-section{
+    margin: 50px 0px;
+}
+
+
+.play-games-img{
+    position: relative;
+}
+
+.nested-img{
+    position: absolute;
+    bottom: -15%;
+    right: -15%;
+    width: 40%;
+}
+.play-games-wrapper{
+    flex-direction: row-reverse;
+    gap: 200px;
+}
+
+
+

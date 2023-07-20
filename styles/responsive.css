@@ -1,3 +1,20 @@
+/* For tablet */
+
+@media screen and (max-width: 800px){
+    .online-games-sec{
+        padding: 0px 20px;
+    }
+    .play-games-section{
+        padding: 0px 20px;
+    }
+    .play-games-wrapper{
+        gap: 100px;
+    }
+
+}
+
+/* For Mobile Large */
+
 @media screen and (max-width: 500px){
     .nav-container, .nav-sec-2-list{
             flex-direction: column;
@@ -14,6 +31,29 @@
         text-align: center;
     }
 
+    .videos{
+        flex-direction: column;
+        
+    }
+    .online-games-sec{
+        padding: 0px 20px;
+    }
+    
+    .play-games-wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .play-games-section{
+        padding: 0px 20px;
+    }
+
+    .play-games-img{
+        width: 80%;
+    }
+
     
 }
+
+
 
