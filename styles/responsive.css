@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px){
+    .nav-container, .nav-sec-2-list{
+            flex-direction: column;
+    }
+    .nav-sec-2-list{
+        margin-top: 20px;
+    }
+
+    
+}
+
