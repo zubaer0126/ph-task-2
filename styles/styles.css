@@ -57,7 +57,7 @@ nav {
 
 /* 2nd section */
 
-.banner-wrapper {
+.uni-wrapper {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -65,13 +65,14 @@ nav {
 
 }
 
-.banner-wrapper>* {
+.uni-wrapper>* {
     flex: 1;
 }
 
-/* .banner-content{
-    flex: 1;
-} */
+.banner-content>p>i {
+    margin-right: 10px;
+}
+
 img {
     width: 100%;
 }
@@ -109,4 +110,36 @@ img {
     border-style: none;
     color: white;
     cursor: pointer;
+}
+
+.common-para-2 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.banner-content {
+    text-align: left;
+}
+
+.we-are-gamer-content {
+    text-align: right;
+}
+
+.we-are-gamer {
+    flex-direction: row-reverse;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
 }
