@@ -31,7 +31,7 @@
         text-align: center;
     }
 
-    .videos{
+    .videos , .career-wrapper{
         flex-direction: column;
         
     }
@@ -51,6 +51,12 @@
     .play-games-img{
         width: 80%;
     }
+
+    .career-section{
+        padding: 0px 15px;
+    }
+
+
 
     
 }
