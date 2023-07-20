@@ -60,6 +60,14 @@
         padding: 0px 15px;
     }
 
+    footer .flex-item ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .flex-item .two-col{
+        grid-template-columns: repeat(2,1fr);
+    }
+
 
 
     

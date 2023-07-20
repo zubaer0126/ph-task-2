@@ -244,3 +244,29 @@ img {
 .footer-container{
   background: #0B0223;
 }
+
+footer{
+  padding: 50px 0px ;
+  text-align: center;
+}
+
+
+.flex-item ul{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0px;
+  
+}
+.flex-item ul i{
+  font-size: 30px;
+}
+
+.flex-item ul a{
+  text-decoration: none;
+  color: white;
+}
+
+.small-footer{
+  color: rgba(255, 255, 255, 0.60);
+}
