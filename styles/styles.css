@@ -8,6 +8,9 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+ul {
+  list-style: none;
+}
 
 nav {
   padding: 20px 0px;
@@ -269,4 +272,35 @@ footer{
 
 .small-footer{
   color: rgba(255, 255, 255, 0.60);
+}
+
+.category a{
+  color: black;
+}
+
+.category .flex-item ul li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.category .flex-item ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .flex-item ul li:hover{
+  border: 2px solid #ff42a5;
+}
+
+.category .flex-item ul li img{
+  height: 50px;
+  width: 50px;
+}
+
+.category .flex-item ul li p{
+  white-space: nowrap;
 }

@@ -68,6 +68,29 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    .category .flex-item ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .category .flex-item ul li{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        padding: 5px 5px;
+        border: 2px solid white;
+        border-radius: 50px;
+        transition: 0.3s;
+    }
+    .category .flex-item ul li img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .category .flex-item ul li p{
+        font-size: 10px;
+      }
+
 
 
     
